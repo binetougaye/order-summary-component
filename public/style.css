@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.content {
+    padding: 30px;
+}
+.container {
+    max-width: 400px;
+    border-radius: 30px;
+}
+img {
+    width: 400px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+h4 {
+    color: hsl(223, 47%, 23%);
+    font-size: 26px;
+    text-align: center;
+}
+.annual {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+.price {
+    color: hsl(224, 23%, 55%);
+}
+a {
+    color: hsl(245, 75%, 52%);
+}
+a:hover {
+    color: hsl(245, 94%, 30%);
+}
+#offer {
+    color: hsl(224, 23%, 55%);
+    margin-top: 15px;
+    text-align: center;
+}
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    gap: 40px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.annual-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.icon-music {
+    width: 40px;
+}
+.box-icon {
+    background-color: hsl(226, 15%, 78%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: hsl(245, 75%, 52%);
+    width: 300px;
+    padding: 15px;
+    border: 0;
+    color: #fff;
+    box-shadow: 5px 5px 5px hsl(245, 75%, 52%);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: hsl(245, 63%, 72%);
+    cursor: pointer;
+}
+#order {
+    color: hsl(224, 23%, 55%);
+    margin-top: 20px;
+    text-align: center;
+}
+#order:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+@media screen and (max-width: 404px) {
+}
